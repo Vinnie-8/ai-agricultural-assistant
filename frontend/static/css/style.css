@@ -1,0 +1,29 @@
+.chat-window {
+    max-height: 400px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.chat-bubble {
+    padding: 0.6rem 1rem;
+    border-radius: 1rem;
+    max-width: 80%;
+    line-height: 1.4;
+    white-space: pre-wrap;
+}
+
+.chat-user {
+    align-self: flex-end;
+    background-color: #198754;
+    color: white;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.chat-assistant {
+    align-self: flex-start;
+    background-color: #e9ecef;
+    color: #212529;
+    border-bottom-left-radius: 0.25rem;
+}

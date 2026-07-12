@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+*.egg-info/
+
+# Env & secrets
+.env
+.env.local
+*.key
+
+# Uploads / data
+backend/uploads/*
+!backend/uploads/.gitkeep
+ai-service/rice-diseases-image-dataset.zip
+ai-service/vector_db/*
+!ai-service/vector_db/.gitkeep
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+# ML datasets (too large for git)
+ai-service/ml/datasets/
+*.zip
